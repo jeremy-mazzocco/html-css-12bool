@@ -10,12 +10,11 @@
 
 /* column */
 
-
-.col {
+/* .col {
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
-}
+} */
 
 .col-1 {
     flex-basis: calc((100% / 12) * 1);
@@ -125,4 +124,36 @@
 
 .col-offset-12 {
     margin-left: calc((100% / 12) * 12);
+}
+
+/* justify content */
+
+.js-start {
+    justify-content: start;
+}
+
+.js-center {
+    justify-content: center;
+}
+
+.js-end {
+    justify-content: end;
+}
+
+.js-around {
+    justify-content: space-around;
+}
+
+.js-between {
+    justify-content: space-between;
+}
+
+/* align items */
+
+.alg-middle {
+    align-items: center;
+}
+
+.alg-bottom {
+    align-items: end;
 }
